@@ -75,7 +75,7 @@ export default function QRCode() {
           <h2 className="text-white text-lg mb-1 font-medium title-font">
             Generate QR Code
           </h2>
-          <p className="leading-relaxed mb-5">
+          <p className="leading-relaxed mb-5 comfortaa">
             Enter the text you want to generate a QR code for.
           </p>
           <div className="relative mb-4">
@@ -113,9 +113,9 @@ export default function QRCode() {
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-900 h-16 outline-none text-gray-100 py-1 px-3 reFrontColor-none leading-6 transition-colors duration-200 ease-in-out"
             ></input>
           </div>
-          <p className="text-xs text-yellow-300 text-opacity-90 mt-3">
+          <p className="text-xs text-yellow-300 text-opacity-90 mt-3 comfortaa">
             Note:- This QR code is generated from the text you have entered. We
-            don&apost store any data. We don&apost know what is the text you have
+            don&apos;t store any data. We don&apos;t know what is the text you have
             entered so we have no liability over anything generated using this
             tool.
           </p>
