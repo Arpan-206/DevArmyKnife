@@ -6,7 +6,7 @@ export default function QRCode() {
   const defaultBackColor = "#0f0e17";
 
   const { Image: QRImage } = useQRCode();
-  const [value, setValue] = useState("Hello World!");
+  const [value, setValue] = useState("https://youtu.be/dQw4w9WgXcQ");
   const [frontColor, setFrontColor] = useState(defaultFrontColor);
   const [backColor, setBackColor] = useState(defaultBackColor);
 
@@ -25,7 +25,7 @@ export default function QRCode() {
   function handleChange(e) {
     textValue = e.target.value;
     if (textValue == "") {
-      setValue("Hello World!");
+      setValue("https://youtu.be/dQw4w9WgXcQ");
     } else {
       setValue(textValue);
     }
