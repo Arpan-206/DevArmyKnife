@@ -79,7 +79,7 @@ export default function QRCode() {
             Enter the text you want to generate a QR code for.
           </p>
           <div className="relative mb-4">
-            <label for="message" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="message" className="leading-7 text-sm text-gray-400">
               Message
             </label>
             <textarea
@@ -90,7 +90,7 @@ export default function QRCode() {
             ></textarea>
           </div>
           <div className="relative mb-4">
-            <label for="FrontColor" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="FrontColor" className="leading-7 text-sm text-gray-400">
               Front Color (Without #)
             </label>
             <input
@@ -102,7 +102,7 @@ export default function QRCode() {
             ></input>
           </div>
           <div className="relative mb-4">
-            <label for="BackColor" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="BackColor" className="leading-7 text-sm text-gray-400">
               Back Color (Without #)
             </label>
             <input
@@ -115,7 +115,7 @@ export default function QRCode() {
           </div>
           <p className="text-xs text-yellow-300 text-opacity-90 mt-3">
             Note:- This QR code is generated from the text you have entered. We
-            don't store any data. We don't know what is the text you have
+            don&apost store any data. We don&apost know what is the text you have
             entered so we have no liability over anything generated using this
             tool.
           </p>
