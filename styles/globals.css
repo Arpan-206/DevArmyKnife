@@ -3,6 +3,27 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
+/* Scollbar for firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ffffff;
+}
+
+/* Scrollbar for Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #111827;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+
 @font-face {
   font-family: "Anurati";
   src: url("../public/fonts/Anurati-Regular.otf");
