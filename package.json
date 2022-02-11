@@ -8,12 +8,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@codemirror/lang-markdown": "^0.19.6",
+    "@codemirror/language-data": "^0.19.1",
+    "@codemirror/theme-one-dark": "^0.19.1",
+    "@uiw/react-codemirror": "^4.3.3",
+    "marked": "^4.0.12",
     "next": "12.0.10",
     "next-qrcode": "^2.0.0",
     "react": "17.0.2",
     "react-barcode": "^1.4.1",
     "react-color-palette": "^6.2.0",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-md-editor": "^0.2.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",

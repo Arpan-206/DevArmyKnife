@@ -15,3 +15,15 @@
 .comfortaa {
   font-family: "Comfortaa", cursive;
 }
+.md-preview h1{
+  font-size: 60px;
+  font-weight: 600;
+}
+.md-preview h2{
+  font-size: 50px;
+  font-weight: 400;
+}
+.md-preview h3{
+  font-size: 40px;
+  font-weight: 400;
+}
