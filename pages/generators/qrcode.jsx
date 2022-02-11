@@ -1,4 +1,5 @@
 import { useQRCode } from "next-qrcode";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function QRCode() {
@@ -76,7 +77,7 @@ export default function QRCode() {
             Generate QR Code
           </h2>
           <p className="leading-relaxed mb-5 comfortaa">
-            Enter the text you want to generate a QR code for.
+            Enter the text you want to generate a QR code for. <br /> You can refer to our <Link href="/misc/colorPicker"><a className="text-gray-300">Color Picker</a></Link> for fetching the hex value of the colors for the QRCode.
           </p>
           <div className="relative mb-4">
             <label htmlFor="message" className="leading-7 text-sm text-gray-400">

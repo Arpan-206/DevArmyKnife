@@ -19,23 +19,23 @@ export default function Explore() {
             </div>
           </div>
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-            <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+            <div className="p-4 md:w-1/2 sm:mb-0 mb-6">
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
                   className="object-cover object-center h-full w-full"
-                  src="https://dummyimage.com/1203x503"
+                  src="/images/thumbnails/QR Code Generator.png"
                 />
               </div>
               <h2 className="text-xl font-medium title-font text-white mt-5">
-                Shooting Stars
+                QR Code Generator
               </h2>
               <p className="text-base leading-relaxed mt-2">
                 Swag shoindxgoitch literally meditation subway tile tumblr
                 cold-pressed. Gastropub street art beard dreamcatcher neutra,
                 ethical XOXO lumbersexual.
               </p>
-              <a className="text-yellow-400 inline-flex items-center mt-3">
+              <a href="/generators/qrcode" className="text-yellow-400 inline-flex items-center mt-3">
                 Learn More
                 <svg
                   fill="none"
@@ -50,23 +50,23 @@ export default function Explore() {
                 </svg>
               </a>
             </div>
-            <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+            <div className="p-4 md:w-1/2 sm:mb-0 mb-6">
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
                   className="object-cover object-center h-full w-full"
-                  src="https://dummyimage.com/1204x504"
+                  src="/images/thumbnails/Bar Code Generator.png"
                 />
               </div>
               <h2 className="text-xl font-medium title-font text-white mt-5">
-                The Catalyzer
+                Bar Code Generator
               </h2>
               <p className="text-base leading-relaxed mt-2">
                 Swag shoindxigoitch literally meditation subway tile tumblr
                 cold-pressed. Gastropub street art beard dreamcatcher neutra,
                 ethical XOXO lumbersexual.
               </p>
-              <a className="text-yellow-400 inline-flex items-center mt-3">
+              <a href="/generators/barcode" className="text-yellow-400 inline-flex items-center mt-3">
                 Learn More
                 <svg
                   fill="none"
@@ -81,37 +81,7 @@ export default function Explore() {
                 </svg>
               </a>
             </div>
-            <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-              <div className="rounded-lg h-64 overflow-hidden">
-                <img
-                  alt="content"
-                  className="object-cover object-center h-full w-full"
-                  src="https://dummyimage.com/1205x505"
-                />
-              </div>
-              <h2 className="text-xl font-medium title-font text-white mt-5">
-                The 400 Blows
-              </h2>
-              <p className="text-base leading-relaxed mt-2">
-                Swag shoindegoitch literally meditation subway tile tumblr
-                cold-pressed. Gastropub street art beard dreamcatcher neutra,
-                ethical XOXO lumbersexual.
-              </p>
-              <a className="text-yellow-400 inline-flex items-center mt-3">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
+            
           </div>
         </div>
       </section>

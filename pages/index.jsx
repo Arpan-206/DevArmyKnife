@@ -1,5 +1,6 @@
 import Image from "next/image";
-
+import Script from "next/script";
+import Router from "next/router";
 export default function Home() {
   return (
     <>
@@ -23,8 +24,22 @@ export default function Home() {
               day-to-day tasks. No registration required.
             </p>
             <div className="flex justify-center">
-              <button className="inline-flex text-white bg-yellow-600 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-700 rounded text-lg">
-                Button
+              <button
+                onClick={() => Router.push("/explore")}
+                className="inline-flex text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-blue-800 rounded text-lg"
+              >
+                Explore
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  className="w-6 h-6 ml-1"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
               </button>
               <button className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                 Button
