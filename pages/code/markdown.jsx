@@ -18,8 +18,8 @@ export default function MarkdownEditor() {
               Markdown Editor
             </h1>
             <p className="lg:w-2/3 sm:w-full mx-auto leading-relaxed text-base justify-start comfortaa">
-              This is a simple markdown editor. It doesn't have any fancy
-              features but it's simplicity gets out of your way to quickly get a
+              This is a simple markdown editor. It doesn&apos;t have any fancy
+              features but it&apos;s simplicity gets out of your way to quickly get a
               markdown preview and make changes. It also features a beautiful
               dark theme editor with syntax highlighting for code snippets.
             </p>
