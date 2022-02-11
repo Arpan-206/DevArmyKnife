@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+pages/cryptography/sym-decrypt.jsx
+pages/cryptography/sym-encrypt.jsx
