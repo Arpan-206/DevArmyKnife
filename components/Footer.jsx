@@ -97,7 +97,6 @@ export default function Footer() {
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <a
-                href=""
                 href="https://twitter.com/HackersReboot"
                 className="ml-3 text-gray-400"
               >
@@ -113,7 +112,6 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href=""
                 href="https://www.linkedin.com/in/arpan-pandey/"
                 className="ml-3 text-gray-400"
               >
@@ -134,7 +132,6 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href=""
                 href="https://github.com/Arpan-206"
                 className="ml-3 text-gray-400"
               >

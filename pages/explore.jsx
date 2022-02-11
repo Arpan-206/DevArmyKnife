@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Explore() {
   return (
     <>
@@ -35,20 +37,25 @@ export default function Explore() {
                 cold-pressed. Gastropub street art beard dreamcatcher neutra,
                 ethical XOXO lumbersexual.
               </p>
-              <a href="/generators/qrcode" className="text-yellow-400 inline-flex items-center mt-3">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
+              <Link
+                href="/generators/qrcode"
+                className="text-yellow-400 inline-flex items-center mt-3"
+              >
+                <>
+                  Learn More
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </>
+              </Link>
             </div>
             <div className="p-4 md:w-1/2 sm:mb-0 mb-6">
               <div className="rounded-lg h-64 overflow-hidden">
@@ -66,22 +73,26 @@ export default function Explore() {
                 cold-pressed. Gastropub street art beard dreamcatcher neutra,
                 ethical XOXO lumbersexual.
               </p>
-              <a href="/generators/barcode" className="text-yellow-400 inline-flex items-center mt-3">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
+              <Link
+                href="/generators/barcode"
+                className="text-yellow-400 inline-flex items-center mt-3"
+              >
+                <>
+                  Learn More
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </>
+              </Link>
             </div>
-            
           </div>
         </div>
       </section>
