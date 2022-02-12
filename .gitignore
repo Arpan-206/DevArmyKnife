@@ -35,3 +35,4 @@ yarn-error.log*
 
 pages/cryptography/sym-decrypt.jsx
 pages/cryptography/sym-encrypt.jsx
+pages/cryptography/keypair.jsx
