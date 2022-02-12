@@ -354,7 +354,7 @@ export default function Explore() {
               Miscellanous
               </h1>
               <p className="sm:w-3/5 leading-relaxed text-base sm:pl-64 pl-0">
-                These are cool tools that I don't know where to put lol.
+                These are cool tools that I don&apos;t know where to put lol.
               </p>
             </div>
           </div>
