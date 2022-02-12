@@ -52,6 +52,11 @@ export default function Footer() {
                     HMAC Generator
                   </Link>
                 </li>
+                <li>
+                  <Link href="/cryptography/keypair" className="text-gray-400 hover:text-white">
+                    RSA Keypair Generator
+                  </Link>
+                </li>
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
