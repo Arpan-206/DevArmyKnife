@@ -26,9 +26,9 @@ export default function Home() {
             <div className="flex justify-center">
               <button
                 onClick={() => Router.push("/explore")}
-                className="inline-flex text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-blue-800 rounded text-lg"
+                className="inline-flex text-white bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-red-500 rounded text-lg"
               >
-                Explore
+                Go to tools
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -41,9 +41,9 @@ export default function Home() {
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </button>
-              <a href="https://github.com/Arpan-206/DevArmyKnife" className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                <span className="text-yellow-600 pr-1">★</span> On GitHub
-              </a>
+              <button onClick={() => Router.push("/toolsWiki")} className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                DevTools Wiki
+              </button>
             </div>
           </div>
         </div>
