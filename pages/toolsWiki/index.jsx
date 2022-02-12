@@ -1,6 +1,6 @@
 const defaultEndpoint = `https://devwiki.deta.dev/`;
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const res = await fetch(defaultEndpoint);
   let data = await res.json();
   data = data["_items"];
