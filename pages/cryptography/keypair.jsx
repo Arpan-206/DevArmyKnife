@@ -10,8 +10,6 @@ export async function getServerSideProps() {
     privateKeyEncoding: {
       type: "pkcs8",
       format: "pem",
-      cipher: "aes-256-cbc",
-      passphrase: "password",
     },
   });
   const publicKey = keyPair.publicKey;
