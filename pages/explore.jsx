@@ -146,7 +146,7 @@ export default function Explore() {
               <p className="text-base leading-relaxed mt-2">
                 A simple RSA keypair generator to help you generate keys quickly and hassle-free for safe asymetric encryption.
               </p>
-              <Link href="/cryptography/hmac">
+              <Link href="/cryptography/keypair">
                 <a className="text-yellow-400 inline-flex items-center mt-3">
                   Learn More
                   <svg
