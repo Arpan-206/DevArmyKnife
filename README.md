@@ -1,6 +1,8 @@
 
 # Dev Army Knife
 
+![Dev Army Knife Thumbnail](public/images/DevArmyKnifeHeader.png)    
+
 Introducing the Dev Army Knife, a toolkit for developers to do various tasks. Whether it may be generating a QR code, editing a few lines of code without the editor or joining two words without any delays and with high-quality, the Dev Army Knife is here to help you. Inspired by the Swiss Army Knife, this handy toolkit includes many useful tools for developers to use in day-to-day tasks.
 
 
