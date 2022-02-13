@@ -17,7 +17,13 @@ export default function Footer() {
             </Link>
             <p className="mt-2 text-sm text-gray-500 comfortaa">
               A toolkit of tools for developers.
-            </p>
+            </p> <br />
+            <a href="https://www.netlify.com">
+              <img
+                src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"
+                alt="Deploys by Netlify"
+              />
+            </a>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center comfortaa">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -26,12 +32,18 @@ export default function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <Link href="/generators/qrcode" className="text-gray-400 hover:text-white">
+                  <Link
+                    href="/generators/qrcode"
+                    className="text-gray-400 hover:text-white"
+                  >
                     QR Code Generator
                   </Link>
                 </li>
                 <li>
-                  <Link href="/generators/barcode" className="text-gray-400 hover:text-white">
+                  <Link
+                    href="/generators/barcode"
+                    className="text-gray-400 hover:text-white"
+                  >
                     Barcode Generator
                   </Link>
                 </li>
@@ -43,17 +55,26 @@ export default function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <Link href="/cryptography/hash" className="text-gray-400 hover:text-white">
+                  <Link
+                    href="/cryptography/hash"
+                    className="text-gray-400 hover:text-white"
+                  >
                     Hash Generator
                   </Link>
                 </li>
                 <li>
-                  <Link href="/cryptography/hmac" className="text-gray-400 hover:text-white">
+                  <Link
+                    href="/cryptography/hmac"
+                    className="text-gray-400 hover:text-white"
+                  >
                     HMAC Generator
                   </Link>
                 </li>
                 <li>
-                  <Link href="/cryptography/keypair" className="text-gray-400 hover:text-white">
+                  <Link
+                    href="/cryptography/keypair"
+                    className="text-gray-400 hover:text-white"
+                  >
                     RSA Keypair Generator
                   </Link>
                 </li>
@@ -65,12 +86,18 @@ export default function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <Link href="/code/markdown" className="text-gray-400 hover:text-white">
+                  <Link
+                    href="/code/markdown"
+                    className="text-gray-400 hover:text-white"
+                  >
                     Markdown Editor
                   </Link>
                 </li>
                 <li>
-                  <Link href="/code/python" className="text-gray-400 hover:text-white">
+                  <Link
+                    href="/code/python"
+                    className="text-gray-400 hover:text-white"
+                  >
                     Code Editor
                   </Link>
                 </li>
@@ -82,12 +109,18 @@ export default function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <Link href="/misc/colorPicker" className="text-gray-400 hover:text-white">
+                  <Link
+                    href="/misc/colorPicker"
+                    className="text-gray-400 hover:text-white"
+                  >
                     Color Picker
                   </Link>
                 </li>
                 <li>
-                  <Link href="/misc/image-compressor" className="text-gray-400 hover:text-white">
+                  <Link
+                    href="/misc/image-compressor"
+                    className="text-gray-400 hover:text-white"
+                  >
                     Image Compressor
                   </Link>
                 </li>
