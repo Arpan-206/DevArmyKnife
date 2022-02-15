@@ -1,3 +1,15 @@
+---
+label: Contributing Guide
+date: 2022-02-12
+icon: code-review
+order: 200
+author:
+    -   name: Arpan Pandey
+        email: arpan@hackersrebbot.tech
+        link: https://hackersreboot.tech/about
+        avatar: https://avatars.dicebear.com/api/bottts/Hackers.svg
+---
+
 # Contributing to Dev Army Knife
 
 First off, thanks for taking the time to contribute! ❤️
@@ -16,8 +28,6 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 - [I Want To Contribute](#i-want-to-contribute)
 - [Reporting Bugs](#reporting-bugs)
 - [Suggesting Enhancements](#suggesting-enhancements)
-- [Your First Code Contribution](#your-first-code-contribution)
-- [Improving The Documentation](#improving-the-documentation)
 - [Styleguides](#styleguides)
 - [Commit Messages](#commit-messages)
 - [Join The Project Team](#join-the-project-team)
@@ -46,7 +56,6 @@ We will then take care of the issue as soon as possible.
 
 ### Reporting Bugs
 
-<!-- omit in toc -->
 #### Before Submitting a Bug Report
 
 A good bug report shouldn't leave others needing to chase you up for more information. Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete the following steps in advance to help us fix any potential bug as fast as possible.
@@ -78,7 +87,7 @@ Once it's filed:
 
 - The project team will label the issue accordingly.
 - A team member will try to reproduce the issue with your provided steps. If there are no reproduction steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until they are reproduced.
-- If the team is able to reproduce the issue, it will be marked `needs-fix`, as well as possibly other tags (such as `critical`), and the issue will be left to be [implemented by someone](#your-first-code-contribution).
+- If the team is able to reproduce the issue, it will be marked `needs-fix`, as well as possibly other tags (such as `critical`), and the issue will be left to be implemented by someone (inside or outside the team).
 
 
 ### Suggesting Enhancements
@@ -99,5 +108,25 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/Arpan-
 - Use a **clear and descriptive title** for the issue to identify the suggestion.
 - Provide a **step-by-step description of the suggested enhancement** in as many details as possible.
 - **Describe the current behavior** and **explain which behavior you expected to see instead** and why. At this point you can also tell which alternatives do not work for you.
-- You may want to **include screenshots and animated GIFs** which help you demonstrate the steps or point out the part which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux. <!-- this should only be included if the project has a GUI -->
+- You may want to **include screenshots and animated GIFs** which help you demonstrate the steps or point out the part which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
 - **Explain why this enhancement would be useful** to most Dev Army Knife users. You may also want to point out the other projects that solved it better and which could serve as inspiration.
+
+## Styleguides
+
+- Format your codes properly. I like to use [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode). You can use any tool but try to keep up with the aesthetics.
+- Please comment your code properly. It gets very tedious to have to understand the function of each and every one line of code.
+
+## Commit Messages
+- Commit Messages should **clearly mention** the changes or the issue addressed. 
+- Commit Messages should follow the project's [Code Of Conduct](/code_of_conduct/)
+
+## Join the project team
+If you want to join the project's team, please contact [arpan@hackersreboot.tech](mailto:arpan@hackersreboot.tech) with neccessary details such as:
+
+- Name
+- Age
+- Guardian Consent (If below the legal age of consent)
+- Qualifications (No problem if you don't have any)
+- About you
+- Why you would like to help?
+- Any other detail you may want us to know
