@@ -26,7 +26,7 @@ export default function Home() {
             <div className="flex justify-center">
               <button
                 onClick={() => Router.push("/explore")}
-                className="inline-flex text-white bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-red-500 rounded text-lg"
+                className="inline-flex text-white border-blue-600 border-2 py-2 px-6 focus:outline-none hover:bg-blue-500 rounded text-lg"
               >
                 Go to tools
                 <svg
