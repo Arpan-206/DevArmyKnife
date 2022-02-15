@@ -54,7 +54,7 @@ export default function Home() {
               <p className="font-bold text-justify">Warning!</p>
               <p className="text-justify">
                 {" "}
-                Note:- It is a purely random generator. We only check if the
+                It is a purely random generator. We only check if the
                 cards follow Luhn&apos;s Algorithm. These have good chances of
                 turning out to be real world cards. We will not be responsible
                 for any consequences that may unfold due to the use of this
