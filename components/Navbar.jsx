@@ -7,8 +7,14 @@ export default function Navbar() {
       <header className="text-gray-400 bg-gray-900 body-font">
         <div className="container-fluid mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-            <Link href="/" className="mr-5 hover:text-white">
-              Home
+            <Link href="/">
+              <a className="mr-5 hover:text-white">Home</a>
+            </Link>
+            <Link href="/toolsWiki">
+              <a className="mr-5 hover:text-white">devTools Wiki</a>
+            </Link>
+            <Link href="https://dakdocs.hackersreboot.tech/">
+              <a className="mr-5 hover:text-white">Docs</a>
             </Link>
           </nav>
           <Link

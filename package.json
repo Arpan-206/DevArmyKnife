@@ -14,6 +14,7 @@
     "@codemirror/legacy-modes": "^0.19.0",
     "@codemirror/stream-parser": "^0.19.5",
     "@codemirror/theme-one-dark": "^0.19.1",
+    "@octokit/rest": "^18.12.0",
     "@uiw/react-codemirror": "^4.3.3",
     "browser-image-compression": "^1.0.17",
     "file-saver": "^2.0.5",
@@ -25,7 +26,8 @@
     "react-color-palette": "^6.2.0",
     "react-dom": "17.0.2",
     "react-drag-drop-files": "^2.3.3",
-    "react-md-editor": "^0.2.2"
+    "react-md-editor": "^0.2.2",
+    "swr": "^1.2.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",

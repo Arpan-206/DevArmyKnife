@@ -124,6 +124,14 @@ export default function Footer() {
                     Image Compressor
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/misc/credit-card-gen"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    Credit Card Generator
+                  </Link>
+                </li>
               </nav>
             </div>
           </div>
