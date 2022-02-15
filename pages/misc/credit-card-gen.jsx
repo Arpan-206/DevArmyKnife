@@ -97,6 +97,7 @@ export default function Home() {
                     height={25}
                     className="inline"
                     src={cardImg}
+                    alt="card-type"
                   />
                 </div>
               </div>

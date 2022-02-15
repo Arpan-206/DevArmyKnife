@@ -11,7 +11,7 @@ export default function Footer() {
               className="flex title-font font-medium items-center md:justify-start justify-center text-white"
             >
               <>
-                <img className="w-10 h-10 rounded-full" src="/logo.svg" />
+                <img className="w-10 h-10 rounded-full" src="/logo.svg" alt="DevArmyKnife Logo" />
                 <span className="ml-3 text-xl anurati">Dev Army Knife</span>
               </>
             </Link>
