@@ -15,6 +15,17 @@ function MyApp({ Component, pageProps }) {
           content="Introducing the Dev Army Knife, a toolkit for developers to do various tasks. Whether it may be generating a QR code, editing a few lines of code without the editor or joining two words without any delays and with high-quality, the Dev Army Knife is here to help you. Inspired by the Swiss Army Knife, this handy toolkit includes many useful tools for developers to use in day-to-day tasks."
         />
         <meta name="author" content="Arpan Pandey" />
+        <meta property="og:title" content="Dev Army Knife" />
+        <meta
+          property="og:description"
+          content="Introducing the Dev Army Knife, a toolkit for developers to do various tasks. Whether it may be generating a QR code, editing a few lines of code without the editor or joining two words without any delays and with high-quality, the Dev Army Knife is here to help you. Inspired by the Swiss Army Knife, this handy toolkit includes many useful tools for developers to use in day-to-day tasks."
+        />
+        <meta property="og:type" content="Applicaton, Dev Tools" />
+        <meta
+          property="og:url"
+          content="https://devarmyknife.hackersreboot.tech/"
+        />
+        <meta property="og:image" content="images/DevArmyKnifeHeader.png" />
       </Head>
       <Navbar />
       <Component {...pageProps} /> <Footer />
