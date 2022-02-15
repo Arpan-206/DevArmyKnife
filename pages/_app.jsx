@@ -12,14 +12,14 @@ function MyApp({ Component, pageProps }) {
         <meta name="title" content="Dev Army Knife" />
         <meta
           name="description"
-          content="Introducing the Dev Army Knife, a toolkit for developers to do various tasks. Whether it may be generating a QR code, editing a few lines of code without the editor or joining two words without any delays and with high-quality, the Dev Army Knife is here to help you. Inspired by the Swiss Army Knife, this handy toolkit includes many useful tools for developers to use in day-to-day tasks."
+          content="Introducing the Dev Army Knife, a toolkit for developers to do various tasks. It may be creating QRCodes or editing code, we've got your back!"
         />
         <meta name="author" content="Arpan Pandey" />
 
         <title>Dev Army Knife</title>
         <meta
           name="description"
-          content="Introducing the Dev Army Knife, a toolkit for developers to do various tasks. Whether it may be generating a QR code, editing a few lines of code without the editor or joining two words without any delays and with high-quality, the Dev Army Knife is here to help you. Inspired by the Swiss Army Knife, this handy toolkit includes many useful tools for developers to use in day-to-day tasks."
+          content="Introducing the Dev Army Knife, a toolkit for developers to do various tasks. It may be creating QRCodes or editing code, we've got your back!"
         />
 
         <meta
@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:title" content="Dev Army Knife" />
         <meta
           property="og:description"
-          content="Introducing the Dev Army Knife, a toolkit for developers to do various tasks. Whether it may be generating a QR code, editing a few lines of code without the editor or joining two words without any delays and with high-quality, the Dev Army Knife is here to help you. Inspired by the Swiss Army Knife, this handy toolkit includes many useful tools for developers to use in day-to-day tasks."
+          content="Introducing the Dev Army Knife, a toolkit for developers to do various tasks. It may be creating QRCodes or editing code, we've got your back!"
         />
         <meta
           property="og:image"
@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:title" content="Dev Army Knife" />
         <meta
           name="twitter:description"
-          content="Introducing the Dev Army Knife, a toolkit for developers to do various tasks. Whether it may be generating a QR code, editing a few lines of code without the editor or joining two words without any delays and with high-quality, the Dev Army Knife is here to help you. Inspired by the Swiss Army Knife, this handy toolkit includes many useful tools for developers to use in day-to-day tasks."
+          content="Introducing the Dev Army Knife, a toolkit for developers to do various tasks. It may be creating QRCodes or editing code, we've got your back!"
         />
         <meta
           name="twitter:image"
