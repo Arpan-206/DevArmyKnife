@@ -16,6 +16,9 @@ export default function Navbar() {
             <Link href="https://dakdocs.hackersreboot.tech/">
               <a className="mr-5 hover:text-white">Docs</a>
             </Link>
+            <Link href="https://hackersreboot.tech/">
+              <a className="mr-5 hover:text-white">My Blog</a>
+            </Link>
           </nav>
           <Link
             href="/"

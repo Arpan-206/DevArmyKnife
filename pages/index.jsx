@@ -15,7 +15,7 @@ export default function Home() {
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white anurati">
               Dev Army Knife
             </h1>
-            <p className="leading-relaxed mb-8 comfortaa justify-start">
+            <p className="leading-relaxed mb-8 comfortaa text-justify">
               Introducing the Dev Army Knife, a toolkit for developers to do
               various tasks. Whether it may be a simple QR Code generation or
               editing a few lines of code without the editor, the Dev Army Knife
