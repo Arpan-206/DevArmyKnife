@@ -51,7 +51,7 @@ Build for production.
 - 📱 Mobile Friendly
 - 💻 Self Hostable
 - 🔐 Secure
-
+- PWA Support
 View in detail over [here](https://dakdocs.hackersreboot.tech/#features).
 
 
@@ -71,6 +71,8 @@ Please visit our documentation over at [dakdocs.hackersreboot.tech](https://dakd
 
 **Server:** Node, NextJS, Netlify(for Deployment)
 
+## PWA Support
+We now have in-built PWA Support. For those of you who don't know, it means that the toolkit can now incorporate many features of a native app and you can install it to use even if you are offline.
 
 ## Contributing
 
