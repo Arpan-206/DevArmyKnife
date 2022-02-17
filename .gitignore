@@ -39,4 +39,6 @@ pages/cryptography/sym-encrypt.jsx
 */github
 */*/github
 */profile.jsx
+
+public/workbox-*.js
 # pages/cryptography/keypair.jsx
