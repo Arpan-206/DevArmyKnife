@@ -51,7 +51,8 @@ Build for production.
 - 📱 Mobile Friendly
 - 💻 Self Hostable
 - 🔐 Secure
-- PWA Support
+- PWA Support    
+
 View in detail over [here](https://dakdocs.hackersreboot.tech/#features).
 
 
