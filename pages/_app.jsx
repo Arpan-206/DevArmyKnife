@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
           content="Introducing the Dev Army Knife, a toolkit for developers to do various tasks. It may be creating QRCodes or editing code, we've got your back!"
         />
         <meta name="author" content="Arpan Pandey" />
-
+        <link rel="icon" href="/favicon.ico" />
         <title>Dev Army Knife</title>
         <meta
           name="description"
@@ -55,7 +55,7 @@ function MyApp({ Component, pageProps }) {
           name="twitter:image"
           content="https://devarmyknife.hackersreboot.tech/images/DevArmyKnifeHeader.png"
         />
-        <link rel="manifest" href="manifest.json" />
+        <link rel="manifest" href="/manifest.json" />
 
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />

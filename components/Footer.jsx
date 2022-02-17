@@ -26,7 +26,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center comfortaa">
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <div className="lg:w-1/5 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
                 GENERATORS
               </h2>
@@ -49,7 +49,7 @@ export default function Footer() {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <div className="lg:w-1/5 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
                 CRYPTOGRAPHY
               </h2>
@@ -80,7 +80,7 @@ export default function Footer() {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <div className="lg:w-1/5 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
                 CODE
               </h2>
@@ -103,7 +103,7 @@ export default function Footer() {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <div className="lg:w-1/5 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
                 MISCELLANEOUS
               </h2>
@@ -130,6 +130,37 @@ export default function Footer() {
                     className="text-gray-400 hover:text-white"
                   >
                     Credit Card Generator
+                  </Link>
+                </li>
+              </nav>
+            </div>
+            <div className="lg:w-1/5 md:w-1/2 w-full px-4">
+              <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
+                FUN STUFF
+              </h2>
+              <nav className="list-none mb-10">
+                <li>
+                  <Link
+                    href="/fun/excuser"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    Excuser
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/fun/joke"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    Programming Jokes
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/fun/fact"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    Fun Facts
                   </Link>
                 </li>
               </nav>
