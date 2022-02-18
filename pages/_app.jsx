@@ -82,7 +82,9 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <Navbar />
-      <Component {...pageProps} /> <Footer />
+      <Component {...pageProps} /> 
+      <Footer />
+      <script async defer data-website-id="97a69fe9-da8a-4b32-92dd-34c93fbb0fc0" src="https://umami-hrbt.herokuapp.com/umami.js"></script>
     </>
   );
 }
