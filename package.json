@@ -1,6 +1,9 @@
 {
   "name": "dev-army-knife",
-  "private": true,
+  "private": false,
+  "description": "A Swiss Army Knife of useful tools for developers.",
+  "homepage": "https://devarmyknife.hackersreboot.tech/",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
