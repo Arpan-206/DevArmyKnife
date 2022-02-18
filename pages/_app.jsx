@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -73,18 +74,21 @@ function MyApp({ Component, pageProps }) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <link rel="icon" type="image/svg" sizes="192x192" href="logo.svg" />
+        <link rel="icon" type="image/svg" sizes="192x192" href="/logo.svg" />
         <link
           rel="apple-touch-icon"
           type="image/svg"
           sizes="192x192"
-          href="logo.svg"
+          href="/logo.svg"
         />
       </Head>
       <Navbar />
-      <Component {...pageProps} /> 
+      <Component {...pageProps} />
       <Footer />
-      <script async defer data-website-id="97a69fe9-da8a-4b32-92dd-34c93fbb0fc0" src="https://umami-hrbt.herokuapp.com/umami.js"></script>
+      <Script
+        data-website-id="97a69fe9-da8a-4b32-92dd-34c93fbb0fc0"
+        src="https://umami-hrbt.herokuapp.com/umami.js"
+      />
     </>
   );
 }
