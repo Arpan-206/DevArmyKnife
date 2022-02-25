@@ -85,6 +85,7 @@ function MyApp({ Component, pageProps }) {
       <Navbar />
       <Component {...pageProps} />
       <Footer />
+      <a href="https://www.producthunt.com/posts/dev-army-knife?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dev-army-knife" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=333488&theme=dark" alt="Dev Army Knife - Dev Army Knife is an all-in-one toolkit for daily dev tasks. | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
       <Script async data-website-id="cf7f8af1-4b3a-4d9e-8c35-9441ea739859" src="https://umami-hrbt.herokuapp.com/umami.js"/>
     </>
   );
