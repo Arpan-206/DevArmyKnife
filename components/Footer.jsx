@@ -23,7 +23,8 @@ export default function Footer() {
                 src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"
                 alt="Deploys by Netlify"
               />
-            </a>
+            </a> <br/>
+            <a href="https://www.producthunt.com/posts/dev-army-knife?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dev-army-knife" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=333488&theme=dark" alt="Dev Army Knife - Dev Army Knife is an all-in-one toolkit for daily dev tasks. | Product Hunt" style={{width: 250, height: 54}} width="250" height="54" /></a>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center comfortaa">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
