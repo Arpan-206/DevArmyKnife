@@ -9,7 +9,7 @@ export default function FunFact() {
     const res = await fetch(`https://asli-fun-fact-api.herokuapp.com/`);
     const data = await res.json();
     if (data.status == true) {
-        setCategory(data.data.cat);
+      setCategory(data.data.cat);
       setFact(data.data.fact);
     } else {
       getFact();

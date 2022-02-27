@@ -20,7 +20,7 @@ export default function Navbar() {
               <a className="mr-5 hover:text-white">My Blog</a>
             </Link>
           </nav>
-          <Link
+          <a
             href="/"
             className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0"
           >
@@ -39,7 +39,7 @@ export default function Navbar() {
                 Dev Army Knife
               </span>
             </>
-          </Link>
+          </a>
           <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
             <button
               onClick={() => Router.push("/explore")}

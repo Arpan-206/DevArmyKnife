@@ -36,7 +36,9 @@ export default function Home({ data }) {
                   <h1 className="title-font sm:text-2xl text-xl font-medium text-white mb-3 anurati">
                     {tool.name}
                   </h1>
-                  <p className="leading-relaxed text-justify mb-3 comfortaa">{tool.description}</p>
+                  <p className="leading-relaxed text-justify mb-3 comfortaa">
+                    {tool.description}
+                  </p>
                   <a
                     className="text-yellow-400 inline-flex items-center"
                     href={tool.url}

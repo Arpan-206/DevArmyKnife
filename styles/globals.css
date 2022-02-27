@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 
 /* Scollbar for firefox */
 * {
@@ -23,7 +23,6 @@
   border-radius: 20px;
 }
 
-
 @font-face {
   font-family: "Anurati";
   src: url("../public/fonts/Anurati-Regular.otf");
@@ -36,15 +35,15 @@
 .comfortaa {
   font-family: "Comfortaa", cursive;
 }
-.md-preview h1{
+.md-preview h1 {
   font-size: 60px;
   font-weight: 600;
 }
-.md-preview h2{
+.md-preview h2 {
   font-size: 50px;
   font-weight: 400;
 }
-.md-preview h3{
+.md-preview h3 {
   font-size: 40px;
   font-weight: 400;
 }

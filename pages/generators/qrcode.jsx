@@ -77,10 +77,18 @@ export default function QRCode() {
             Generate QR Code
           </h2>
           <p className="leading-relaxed mb-5 comfortaa">
-            Enter the text you want to generate a QR code for. <br /> You can refer to our <Link href="/misc/colorPicker"><a className="text-gray-300">Color Picker</a></Link> for fetching the hex value of the colors for the QRCode.
+            Enter the text you want to generate a QR code for. <br /> You can
+            refer to our{" "}
+            <Link href="/misc/colorPicker">
+              <a className="text-gray-300">Color Picker</a>
+            </Link>{" "}
+            for fetching the hex value of the colors for the QRCode.
           </p>
           <div className="relative mb-4">
-            <label htmlFor="message" className="leading-7 text-sm text-gray-400">
+            <label
+              htmlFor="message"
+              className="leading-7 text-sm text-gray-400"
+            >
               Message
             </label>
             <textarea
@@ -91,7 +99,10 @@ export default function QRCode() {
             ></textarea>
           </div>
           <div className="relative mb-4">
-            <label htmlFor="FrontColor" className="leading-7 text-sm text-gray-400">
+            <label
+              htmlFor="FrontColor"
+              className="leading-7 text-sm text-gray-400"
+            >
               Front Color (Without #)
             </label>
             <input
@@ -103,7 +114,10 @@ export default function QRCode() {
             ></input>
           </div>
           <div className="relative mb-4">
-            <label htmlFor="BackColor" className="leading-7 text-sm text-gray-400">
+            <label
+              htmlFor="BackColor"
+              className="leading-7 text-sm text-gray-400"
+            >
               Back Color (Without #)
             </label>
             <input
@@ -116,9 +130,9 @@ export default function QRCode() {
           </div>
           <p className="text-xs text-yellow-300 text-opacity-90 mt-3 comfortaa">
             Note:- This QR code is generated from the text you have entered. We
-            don&apos;t store any data. We don&apos;t know what is the text you have
-            entered so we have no liability over anything generated using this
-            tool.
+            don&apos;t store any data. We don&apos;t know what is the text you
+            have entered so we have no liability over anything generated using
+            this tool.
           </p>
         </div>
       </div>

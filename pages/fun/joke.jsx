@@ -22,13 +22,13 @@ export default function Jokes() {
               Programming Jokes
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base comfortaa">
-              A fun little tool to get some nice programming jokes. Special thanks to the{" "}
+              A fun little tool to get some nice programming jokes. Special
+              thanks to the{" "}
               <Link href="https://sv443.net/jokeapi/v2/">Joke API.</Link>
             </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
-              
               <div className="p-2 w-full">
                 <div className="relative">
                   <label

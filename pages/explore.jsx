@@ -14,7 +14,8 @@ export default function Explore() {
                 Generators
               </h1>
               <p className="sm:w-3/5 leading-relaxed text-base sm:pl-64 pl-0">
-                These are the generators for creating things like QR codes, barcodes etc.
+                These are the generators for creating things like QR codes,
+                barcodes etc.
               </p>
             </div>
           </div>
@@ -31,7 +32,8 @@ export default function Explore() {
                 QR Code Generator
               </h2>
               <p className="text-base leading-relaxed mt-2">
-                A simple QR code generator. You can also customize the colors of the QR code to your liking.
+                A simple QR code generator. You can also customize the colors of
+                the QR code to your liking.
               </p>
               <Link href="/generators/qrcode">
                 <a className="text-yellow-400 inline-flex items-center mt-3">
@@ -96,7 +98,8 @@ export default function Explore() {
                 Cryptography
               </h1>
               <p className="sm:w-3/5 leading-relaxed text-base sm:pl-64 pl-0">
-                These are the tools related to cryptography like hashing, HMAC generation etc.
+                These are the tools related to cryptography like hashing, HMAC
+                generation etc.
               </p>
             </div>
           </div>
@@ -113,7 +116,8 @@ export default function Explore() {
                 Hash Generator
               </h2>
               <p className="text-base leading-relaxed mt-2">
-                Utilise the power of SHA256 or SHA512 to generate hashes quickly and easily.
+                Utilise the power of SHA256 or SHA512 to generate hashes quickly
+                and easily.
               </p>
               <Link href="/cryptography/hash">
                 <a className="text-yellow-400 inline-flex items-center mt-3">
@@ -144,7 +148,8 @@ export default function Explore() {
                 RSA Keypair Generator
               </h2>
               <p className="text-base leading-relaxed mt-2">
-                A simple RSA keypair generator to help you generate keys quickly and hassle-free for safe asymetric encryption.
+                A simple RSA keypair generator to help you generate keys quickly
+                and hassle-free for safe asymetric encryption.
               </p>
               <Link href="/cryptography/keypair">
                 <a className="text-yellow-400 inline-flex items-center mt-3">
@@ -175,7 +180,9 @@ export default function Explore() {
                 HMAC Generator
               </h2>
               <p className="text-base leading-relaxed mt-2">
-                A simple HMAC generator to help you create HMACs (Or Hash with a password) quickly and hassle-free using SHA256 and SHA512 algorithms.{" "}
+                A simple HMAC generator to help you create HMACs (Or Hash with a
+                password) quickly and hassle-free using SHA256 and SHA512
+                algorithms.{" "}
               </p>
               <Link href="/cryptography/hmac">
                 <a className="text-yellow-400 inline-flex items-center mt-3">
@@ -195,7 +202,6 @@ export default function Explore() {
               </Link>
             </div>
           </div>
-          
         </div>
       </section>
       <section className="text-gray-400 bg-gray-900 body-font">
@@ -209,7 +215,8 @@ export default function Explore() {
                 Code Editors
               </h1>
               <p className="sm:w-3/5 leading-relaxed text-base sm:pl-64 pl-0">
-                These are editors for various languages like Python, Go C++, JavaScript. Also a pretty powerful Markdown Editor.
+                These are editors for various languages like Python, Go C++,
+                JavaScript. Also a pretty powerful Markdown Editor.
               </p>
             </div>
           </div>
@@ -226,7 +233,8 @@ export default function Explore() {
                 Markdown Editor
               </h2>
               <p className="text-base leading-relaxed mt-2">
-                Markdown Editor to help you write and preview Markdown easily and hassle-free.
+                Markdown Editor to help you write and preview Markdown easily
+                and hassle-free.
               </p>
               <Link href="/code/markdown">
                 <a className="text-yellow-400 inline-flex items-center mt-3">
@@ -370,7 +378,6 @@ export default function Explore() {
               </Link>
             </div>
           </div>
-          
         </div>
       </section>
       <section className="text-gray-400 bg-gray-900 body-font">
@@ -381,7 +388,7 @@ export default function Explore() {
             </div>
             <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
               <h1 className="sm:w-2/5 text-white font-medium title-font text-2xl mb-2 sm:mb-0 anurati">
-              Miscellanous
+                Miscellanous
               </h1>
               <p className="sm:w-3/5 leading-relaxed text-base sm:pl-64 pl-0">
                 These are cool tools that I don&apos;t know where to put lol.
@@ -401,7 +408,8 @@ export default function Explore() {
                 Color Picker
               </h2>
               <p className="text-base leading-relaxed mt-2">
-                Wanna decide on a color, use our color picker to get the RGB and Hex Value.
+                Wanna decide on a color, use our color picker to get the RGB and
+                Hex Value.
               </p>
               <Link href="/misc/colorPicker">
                 <a className="text-yellow-400 inline-flex items-center mt-3">
@@ -432,7 +440,8 @@ export default function Explore() {
                 Image Compressor
               </h2>
               <p className="text-base leading-relaxed mt-2">
-                Compress Images easily and Quickly with an intuitive drag-n-drop interface.{" "}
+                Compress Images easily and Quickly with an intuitive drag-n-drop
+                interface.{" "}
               </p>
               <Link href="/misc/image-compressor">
                 <a className="text-yellow-400 inline-flex items-center mt-3">
@@ -483,7 +492,6 @@ export default function Explore() {
               </Link>
             </div>
           </div>
-          
         </div>
       </section>
       <section className="text-gray-400 bg-gray-900 body-font">
@@ -494,7 +502,7 @@ export default function Explore() {
             </div>
             <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
               <h1 className="sm:w-2/5 text-white font-medium title-font text-2xl mb-2 sm:mb-0 anurati">
-              Fun Stuff
+                Fun Stuff
               </h1>
               <p className="sm:w-3/5 leading-relaxed text-base sm:pl-64 pl-0">
                 These are some tools just to have some fun with.
@@ -627,7 +635,6 @@ export default function Explore() {
               </Link>
             </div>
           </div>
-          
         </div>
       </section>
     </>

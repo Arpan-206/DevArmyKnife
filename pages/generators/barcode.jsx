@@ -2,7 +2,6 @@ const Barcode = require("react-barcode");
 import { useState } from "react";
 
 export default function BarCode() {
-
   const [value, setValue] = useState("Hello World!");
 
   let textValue = "";
@@ -15,7 +14,6 @@ export default function BarCode() {
       setValue(textValue);
     }
   }
-
 
   return (
     <section className="text-gray-400 bg-gray-900 body-font relative">
@@ -52,10 +50,10 @@ export default function BarCode() {
             ></textarea>
           </div>
           <p className="text-xs text-yellow-300 text-opacity-90 mt-3 comfortaa">
-            Note:- This barcode code is generated from the text you have entered. We
-            don&apos;t store any data. We don&apos;t know what is the text you
-            have entered so we have no liability over anything generated using
-            this tool.
+            Note:- This barcode code is generated from the text you have
+            entered. We don&apos;t store any data. We don&apos;t know what is
+            the text you have entered so we have no liability over anything
+            generated using this tool.
           </p>
         </div>
       </div>

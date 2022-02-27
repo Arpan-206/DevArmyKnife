@@ -10,7 +10,9 @@ export default function ColorPick() {
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white anurati">
             Color Picker
           </h1>
-          <p className="mx-auto leading-relaxed items-start text-base comfortaa justify-start">This is a simple color picker for you to choose your colors.</p>
+          <p className="mx-auto leading-relaxed items-start text-base comfortaa justify-start">
+            This is a simple color picker for you to choose your colors.
+          </p>
           <div className="flex flex-wrap -mx-4 -mb-10 text-center">
             <ColorPicker
               height={250}

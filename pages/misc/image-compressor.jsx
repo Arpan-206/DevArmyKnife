@@ -38,7 +38,8 @@ export default function ImageCompressor() {
             Image Compressor
           </h1>
           <p className="mx-auto leading-relaxed items-start text-base comfortaa text-justify">
-            Upload your images and compress them to save space or store them in bulk.
+            Upload your images and compress them to save space or store them in
+            bulk.
           </p>
           <div className="flex flex-wrap -mx-4 -mb-10 items-center text-center h-64">
             <FileUploader

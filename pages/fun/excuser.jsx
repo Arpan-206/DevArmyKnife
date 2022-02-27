@@ -2,31 +2,33 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function Excuser() {
-    let category = "";
-    const [excuse, setExcuse] = useState("");
-    const handleCatChange = (e) => {
-        const catInput = e.target.value.toLowerCase();
-        if (catInput === "" || catInput === "random") {
-            category = "";
-        } else if (catInput === "family") {
-            category = catInput;
-        } else if (catInput === "office") {
-            category = catInput;
-        } else if (catInput === "children") {
-            category = catInput;
-        } else if (catInput === "college") {
-            category = catInput;
-        } else if (catInput === "party") {
-            category = catInput;
-        }
+  let category = "";
+  const [excuse, setExcuse] = useState("");
+  const handleCatChange = (e) => {
+    const catInput = e.target.value.toLowerCase();
+    if (catInput === "" || catInput === "random") {
+      category = "";
+    } else if (catInput === "family") {
+      category = catInput;
+    } else if (catInput === "office") {
+      category = catInput;
+    } else if (catInput === "children") {
+      category = catInput;
+    } else if (catInput === "college") {
+      category = catInput;
+    } else if (catInput === "party") {
+      category = catInput;
     }
+  };
 
-    async function getExcuse() {
-        setExcuse("Loading Excuse...");
-        const res = await fetch("https://excuser.herokuapp.com/v1/excuse/" + category);
-        const data = await res.json();
-        setExcuse(data[0].excuse);
-    }
+  async function getExcuse() {
+    setExcuse("Loading Excuse...");
+    const res = await fetch(
+      "https://excuser.herokuapp.com/v1/excuse/" + category
+    );
+    const data = await res.json();
+    setExcuse(data[0].excuse);
+  }
 
   return (
     <>
@@ -37,14 +39,18 @@ export default function Excuser() {
               Excuser
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base comfortaa">
-              A fun little tool to help you make excuses. Special thanks to the <Link href="https://excuser.herokuapp.com/">Excuser API.</Link>
+              A fun little tool to help you make excuses. Special thanks to the{" "}
+              <Link href="https://excuser.herokuapp.com/">Excuser API.</Link>
             </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-full">
                 <div className="relative">
-                  <label htmlFor="category" className="leading-7 text-sm text-gray-400">
+                  <label
+                    htmlFor="category"
+                    className="leading-7 text-sm text-gray-400"
+                  >
                     Category
                   </label>
                   <input
@@ -56,7 +62,7 @@ export default function Excuser() {
                   />
                 </div>
               </div>
-              
+
               <div className="p-2 w-full">
                 <div className="relative">
                   <label
@@ -75,7 +81,10 @@ export default function Excuser() {
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button onClick={getExcuse} className="flex mx-auto text-white border-blue-500 border-4 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
+                <button
+                  onClick={getExcuse}
+                  className="flex mx-auto text-white border-blue-500 border-4 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
+                >
                   Get Excuse
                 </button>
               </div>

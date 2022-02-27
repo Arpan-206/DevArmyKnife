@@ -32,7 +32,8 @@ export default function Keypair({ publicKey, privateKey }) {
               RSA Key Pair Generation
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base comfortaa justify-center">
-              Generate a random RSA Keypair. <br /> <span className="text-red-800">Server Side Render Alert!</span>
+              Generate a random RSA Keypair. <br />{" "}
+              <span className="text-red-800">Server Side Render Alert!</span>
             </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">

@@ -1,15 +1,3 @@
----
-label: Contributing Guide
-date: 2022-02-12
-icon: code-review
-order: 200
-author:
-    -   name: Arpan Pandey
-        email: arpan@hackersrebbot.tech
-        link: https://hackersreboot.tech/about
-        avatar: https://avatars.dicebear.com/api/bottts/Hackers.svg
----
-
 # Contributing to Dev Army Knife
 
 First off, thanks for taking the time to contribute! ❤️

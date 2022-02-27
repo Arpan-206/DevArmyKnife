@@ -11,20 +11,37 @@ export default function Footer() {
               className="flex title-font font-medium items-center md:justify-start justify-center text-white"
             >
               <>
-                <img className="w-10 h-10 rounded-full" src="/logo.svg" alt="DevArmyKnife Logo" />
+                <img
+                  className="w-10 h-10 rounded-full"
+                  src="/logo.svg"
+                  alt="DevArmyKnife Logo"
+                />
                 <span className="ml-3 text-xl anurati">Dev Army Knife</span>
               </>
             </Link>
             <p className="mt-2 text-sm text-gray-500 comfortaa">
               A toolkit of tools for developers.
-            </p> <br />
+            </p>{" "}
+            <br />
             <a href="https://www.netlify.com">
               <img
                 src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"
                 alt="Deploys by Netlify"
               />
-            </a> <br/>
-            <a href="https://www.producthunt.com/posts/dev-army-knife?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dev-army-knife" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=333488&theme=dark" alt="Dev Army Knife - Dev Army Knife is an all-in-one toolkit for daily dev tasks. | Product Hunt" style={{width: 250, height: 54}} width="250" height="54" /></a>
+            </a>{" "}
+            <br />
+            <a
+              href="https://www.producthunt.com/posts/dev-army-knife?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dev-army-knife"
+              target="_blank"
+            >
+              <img
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=333488&theme=dark"
+                alt="Dev Army Knife - Dev Army Knife is an all-in-one toolkit for daily dev tasks. | Product Hunt"
+                style={{ width: 250, height: 54 }}
+                width="250"
+                height="54"
+              />
+            </a>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center comfortaa">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">

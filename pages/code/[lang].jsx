@@ -65,7 +65,7 @@ int main() {
             This is a simple code editor. It doesn&apos;t have any fancy
             features but it&apos;s simplicity gets out of your way to quickly
             make changes. It also features a beautiful dark theme editor with
-            syntax highlighting for code snippets. 
+            syntax highlighting for code snippets.
           </p>
           <div className="flex flex-wrap -mx-4 -mb-10">
             <CodeMirror

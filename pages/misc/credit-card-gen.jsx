@@ -54,11 +54,11 @@ export default function Home() {
               <p className="font-bold text-justify">Warning!</p>
               <p className="text-justify">
                 {" "}
-                It is a purely random generator. We only check if the
-                cards follow Luhn&apos;s Algorithm. These have good chances of
-                turning out to be real world cards. We will not be responsible
-                for any consequences that may unfold due to the use of this
-                tool. If you want only test cards. Click{" "}
+                It is a purely random generator. We only check if the cards
+                follow Luhn&apos;s Algorithm. These have good chances of turning
+                out to be real world cards. We will not be responsible for any
+                consequences that may unfold due to the use of this tool. If you
+                want only test cards. Click{" "}
                 <a
                   className="text-orange-600"
                   href="https://developer.paypal.com/api/nvp-soap/payflow/integration-guide/test-transactions/"
