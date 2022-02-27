@@ -106,7 +106,12 @@ Yes, it is completely free. We don't have any trackers from our side. We only re
 </a>        
 
 The deployments of this project and its documentation is managed by the good folks over at [Netlify](https://netlify.com).
-## Authors
 
-- [@Arpan-206](https://www.github.com/Arpan-206)
+## Latest Build Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/24526d4a-4ee5-4465-bac5-082449084d2c/deploy-status)](https://app.netlify.com/sites/devarmyknife/deploys)
+
+## Author
+
+[@Arpan-206](https://www.github.com/Arpan-206)
 
