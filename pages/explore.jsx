@@ -24,7 +24,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/QR Code Generator.png"
                 />
               </div>
@@ -56,7 +56,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/Bar Code Generator.png"
                 />
               </div>
@@ -108,7 +108,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/Hash Generator.png"
                 />
               </div>
@@ -140,7 +140,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/RSA Keypair.png"
                 />
               </div>
@@ -172,7 +172,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/HMAC Generator.png"
                 />
               </div>
@@ -225,7 +225,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/Markdown Editor.png"
                 />
               </div>
@@ -257,7 +257,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/Python Editor.png"
                 />
               </div>
@@ -288,7 +288,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/Go Editor.png"
                 />
               </div>
@@ -319,7 +319,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/C++ Editor.png"
                 />
               </div>
@@ -350,7 +350,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/JS Editor.png"
                 />
               </div>
@@ -400,7 +400,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/ColorPicker.png"
                 />
               </div>
@@ -432,7 +432,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/Image Compressor.png"
                 />
               </div>
@@ -464,7 +464,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/Credit Card Generator.png"
                 />
               </div>
@@ -514,7 +514,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/Excuser.png"
                 />
               </div>
@@ -545,7 +545,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/Jokes.png"
                 />
               </div>
@@ -576,7 +576,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/Fun Facts.png"
                 />
               </div>
@@ -607,7 +607,7 @@ export default function Explore() {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-container object-center h-full w-full"
                   src="/images/thumbnails/Trivia Quiz.png"
                 />
               </div>
