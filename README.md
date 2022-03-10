@@ -55,7 +55,6 @@ Build for production.
 
 View in detail over [here](https://dakdocs.hackersreboot.tech/#features).
 
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
@@ -74,6 +73,10 @@ Please visit our documentation over at [dakdocs.hackersreboot.tech](https://dakd
 
 ## PWA Support
 We now have in-built PWA Support. For those of you who don't know, it means that the toolkit can now incorporate many features of a native app and you can install it to use even if you are offline.
+
+## Security
+We have tried to provide you with the best security we can. Here, is the security check from [Security Headers](https://securityheaders.com/?q=https%3A%2F%2Fdevarmyknife.hackersreboot.tech%2F&followRedirects=on).
+![Security Headers SS](public/github/SecuritySS.png)
 
 ## Contributing
 
