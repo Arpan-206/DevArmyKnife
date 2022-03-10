@@ -1,0 +1,8 @@
+/*
+  Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  X-Frame-Options "SAMEORIGIN"
+  X-Xss-Protection "1; mode=block"
+  X-Content-Type-Options "nosniff"
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(self "https://devarmyknife.hackersreboot.tech/"), microphone=()
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: https://api.producthunt.com/ https://devarmyknife.hackersreboot.tech/ https://www.netlify.com/img/global/badges/; style-src 'self' 'unsafe-inline'; font-src 'self' https://fonts.googleapis.com/; script-src 'self' https://umami-hrbt.herokuapp.com/ 'unsafe-eval

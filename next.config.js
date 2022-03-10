@@ -1,6 +1,5 @@
 const withPWA = require("next-pwa");
 const { createSecureHeaders } = require("next-secure-headers");
-const headers = require("./headers");
 module.exports = withPWA({
   pwa: {
     dest: "public",
