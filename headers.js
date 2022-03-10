@@ -5,7 +5,7 @@ module.exports = [
     },
     {
       key: 'Strict-Transport-Security',
-      value: 'max-age=63072000; includeSubDomains; preload',
+      value: 'max-age=2592000; includeSubDomains; preload',
     },
     {
       key: 'X-Content-Type-Options',
@@ -13,7 +13,7 @@ module.exports = [
     },
     {
       key: 'X-Frame-Options',
-      value: 'sameorigin',
+      value: 'SAMEORIGIN',
     },
     {
       key: 'X-XSS-Protection',
@@ -27,4 +27,5 @@ module.exports = [
       key: 'Permissions-Policy',
       value: 'geolocation=*', // allow specified policies here
     },
+    
   ];
