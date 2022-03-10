@@ -27,6 +27,12 @@ module.exports = withPWA({
             { maxAge: 60 * 60 * 24 * 4, includeSubDomains: true },
           ],
           referrerPolicy: "same-origin",
+          frameGuard: "sameorigin",
+          noopen: "noopen",
+          nosniff: "nosniff",
+          xssProtection: "sanitize",
+          referrerPolicy: "no-referrer-when-downgrade",
+          xFrameOptions: "sameorigin",
         }),
       },
     ];
