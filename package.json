@@ -35,7 +35,7 @@
     "react-drag-drop-files": "^2.3.3",
     "react-md-editor": "^0.2.2",
     "rss-parser": "^3.12.0",
-    "swr": "^1.2.1"
+    "swr": "^1.2.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
