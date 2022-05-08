@@ -23,7 +23,7 @@
     "browser-image-compression": "^1.0.17",
     "file-saver": "^2.0.5",
     "jsonwebtoken": "^8.5.1",
-    "marked": "^4.0.12",
+    "marked": "^4.0.13",
     "next": "12.1.5",
     "next-pwa": "^5.5.2",
     "next-qrcode": "^2.0.0",
