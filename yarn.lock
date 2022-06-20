@@ -4341,10 +4341,10 @@ react-dom@17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
-react-drag-drop-files@^2.3.4:
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/react-drag-drop-files/-/react-drag-drop-files-2.3.5.tgz#8cafff49b1776625b62a4cca0b0f1cc8b04238b6"
-  integrity sha512-nSf4F7Ze9vzJMpTkOKbcQLNWNAKjXyMn4U8tsgQ/igZwKnwUzVwRJNFukKcQDSMxR8JoknrZFAeirf7BHXZUzw==
+react-drag-drop-files@^2.3.7:
+  version "2.3.7"
+  resolved "https://registry.yarnpkg.com/react-drag-drop-files/-/react-drag-drop-files-2.3.7.tgz#dc9a157994bf09cf62574ccc2de0391dadb37c10"
+  integrity sha512-OqYA1NaljTLKHGOLu7kFTlo2UC8YyJtldC47bJm0E8cHkDNjx5NBC845YohkVWCIpMM/76eT0ij+kVUxKtS67Q==
   dependencies:
     prop-types "^15.7.2"
     styled-components "^5.3.0"
