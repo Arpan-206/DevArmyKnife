@@ -42,7 +42,7 @@
     "eslint": "8.8.0",
     "eslint-config-next": "12.0.10",
     "next-secure-headers": "^2.2.0",
-    "postcss": "^8.4.6",
+    "postcss": "^8.4.31",
     "tailwindcss": "^3.0.19"
   }
 }
